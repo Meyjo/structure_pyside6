@@ -15,7 +15,6 @@ structure = [
     'src/ui/qt/',
     'src/utils/__init__.py',
     'src/views/__init__.py',
-    'src/views/cashview.py',
     'src/widgets/__init__.py',
     'tests/',
     '.gitignore'
