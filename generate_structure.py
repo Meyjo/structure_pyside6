@@ -10,13 +10,15 @@ structure = [
     'src/models/__init__.py',
     'src/resources/icons/',
     'src/resources/images/',
+    'src/services/__init__.py',
     'src/ui/__init__.py',
     'src/ui/py/',
     'src/ui/qt/',
     'src/utils/__init__.py',
     'src/views/__init__.py',
+    'src/views/animations/__init__.py',
+    'src/views/main_modules/__init__.py',
     'src/widgets/__init__.py',
-    'tests/',
     '.gitignore'
 ]
 
@@ -28,7 +30,9 @@ def create_structure(base_path):
         'src/utils',
         'src/views',
         'src/widgets',
-        'tests'
+        'src/services',
+        'src/views/animations',
+        'src/views/main_modules'
     ]
     created_dirs = set()
     for item in structure:
